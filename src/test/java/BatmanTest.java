@@ -18,7 +18,7 @@ public class BatmanTest {
 
     @Test
     public void hasName(){
-        assertEquals("Bat Man", batman.getName());
+        assertEquals("BatMan", batman.getName());
     }
 
     @Test
@@ -35,6 +35,6 @@ public class BatmanTest {
     @Test
     public void hasAttackEffect(){
         batman.attack(joker);
-        assertEquals(92, joker.getHealthPoints(), 3);
+        assertEquals(12, joker.getHealthPoints(), 3);
     }
 }

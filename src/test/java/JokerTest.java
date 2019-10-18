@@ -18,13 +18,13 @@ public class JokerTest {
 
     @Test
     public void hasHealthPoints(){
-        assertEquals(100, joker.getHealthPoints());
+        assertEquals(20, joker.getHealthPoints());
     }
 
     @Test
     public void hasDamageAffect(){
         joker.takeDamage(5);
-        assertEquals(95, joker.getHealthPoints());
+        assertEquals(15, joker.getHealthPoints());
     }
 
     @Test
