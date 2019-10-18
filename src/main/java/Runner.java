@@ -18,18 +18,15 @@ public class Runner {
 
         System.out.println(game.startGame());
 
-        System.out.println(game.heroAttackVillain());
-        System.out.println(game.heroAttackVillain());
-        System.out.println(game.heroAttackVillain());
-        System.out.println(game.heroAttackVillain());
-        System.out.println(game.heroAttackVillain());
-        System.out.println(game.heroAttackVillain());
-        System.out.println(game.heroAttackVillain());
-        System.out.println(game.heroAttackVillain());
+        
 
-        System.out.println(game.villainAttackhero());
-        System.out.println(game.villainAttackhero());
-        System.out.println(game.villainAttackhero());
+//        while (true) {
+//            game.heroAttackVillain();
+//            if (checkDead) break;
+//            game.villainAttackhero();
+//            if (checkDead) break;
+//        }
+
 
     }
 }
