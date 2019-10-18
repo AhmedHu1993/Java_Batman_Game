@@ -29,7 +29,7 @@ public class BatmanTest {
     @Test
     public void hasWeapons(){
         batman.addWeapons();
-        assertEquals(3, batman.getWeaponsCount());
+        assertEquals(3, batman.getWeapons().size());
     }
 
     @Test

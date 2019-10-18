@@ -18,7 +18,8 @@ public class Runner {
 
         System.out.println(game.startGame());
 
-        
+        System.out.println(game.heroAttackVillain());
+        System.out.println(game.villainAttackhero());
 
 //        while (true) {
 //            game.heroAttackVillain();
